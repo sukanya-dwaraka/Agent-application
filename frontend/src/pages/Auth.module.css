@@ -1,0 +1,88 @@
+/* pages/Auth.module.css */
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px;
+  background:
+    radial-gradient(ellipse at 20% 20%, rgba(79, 124, 255, 0.1) 0%, transparent 55%),
+    radial-gradient(ellipse at 80% 85%, rgba(139, 92, 246, 0.07) 0%, transparent 50%),
+    var(--bg-base);
+}
+
+.box {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Logo */
+.logo {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.logoMark {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #fff;
+  margin: 0 auto 12px;
+}
+
+.logoName {
+  font-size: 1.6rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.logoSub {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+
+/* Card */
+.card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+}
+
+.cardTitle {
+  font-size: 1.3rem;
+  margin-bottom: 4px;
+}
+
+.cardSub {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-bottom: 24px;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+/* Footer link */
+.footer {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
